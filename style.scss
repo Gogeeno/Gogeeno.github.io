@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    scrollbar-color: brown rgba(0, 0, 255, 0.159);
+    scrollbar-width: thin;
+}
+
+header{
+    width: 100%;
+    height: 20vh;
+    border: solid;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+}
+
+.box {
+    width: 50%;
+    height: 100vh;
+    border: solid;
+    .accordion{
+        display: flex;
+        .accordion-item{
+            width: 200px;
+        }
+    }
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    border: solid brown;
+}
+#navbar {
+    background-color: brown;
+}
